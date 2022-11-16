@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//Tests/Project.properties=UTF-8
 encoding//Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_CWXTDATE_END-OF-MONTH-SW.listructure=UTF-8
 encoding//Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_CWXTDATE_RETURN-CODE.listructure=UTF-8
 encoding//Tests/Unit/SalesRepManagement/Payroll/CWXTCOB/Structures/CWXTCOB_CWXTDATE_TODAYS-DATE.listructure=UTF-8
