@@ -1,4 +1,4 @@
-//${user_id}X JOB (MMC),'COBOL TEST',CLASS=L,
+//PMIDDL0X JOB (MMC),'COBOL TEST',CLASS=L,
 //  MSGCLASS=X,MSGLEVEL=(1,1),NOTIFY=&SYSUID
 /*JOBPARM S=*
 //*
@@ -27,5 +27,5 @@
 //SYSOUT   DD   SYSOUT=X
 //         PEND
 //CWBWCOBX EXEC CWBWPROC,
-//         APPL=${ispw_app_value},
-//         PATH=${ispw_path_num}
+//         APPL=GITB,
+//         PATH=1
