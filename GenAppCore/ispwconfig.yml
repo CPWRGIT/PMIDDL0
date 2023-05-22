@@ -1,8 +1,8 @@
 !!com.compuware.ispw.wzzms.models.IspwRoot
 ispwApplication:
-  host: cwcc.compuware.com
+  host: cwcc.bmc.com
   port: 16196
-  runtimeConfig: ispw
+  runtimeConfig: iccga
   stream: GITDEMO1
   application: GITB
   pathMappings:
