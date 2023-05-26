@@ -6,7 +6,7 @@
       *                                                                *
       *  THIS PROGRAM IS THE COBOL DEMO PROGRAM USED FOR XPEDITER/TSO  *
       *  TRAINING SESSIONS.
-      * 5/26/23                                                        *
+      * 5/27/23                                                        *
       *                                                                *
       *  INPUT FILE  - EMPLOYEE WAGE INFORMATION                       *
       *              - STORED IN XPEDITER/TSO SAMPLIB (CWXTDATA)       *
