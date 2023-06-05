@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTDATE" caseInsensitiveCompare="false">
+  <Test>
+    <Component id="cwxtdate" label="CWXTDATE" moduleName="CWXTDATE" programExitVerify="value &lt; 8" rollback="false">
+      <Data>
+        <eom-sw>Y</eom-sw>
+        <yrs-of-service />
+        <run-date>
+          <run-yy>23</run-yy>
+          <run-mm>10</run-mm>
+          <run-dd>31</run-dd>
+        </run-date>
+        <hire-date>
+          <hire-yy>17</hire-yy>
+          <hire-mm>11</hire-mm>
+          <hire-dd>11</hire-dd>
+        </hire-date>
+      </Data>
+    </Component>
+  </Test>
+  <MetaData>
+    <Component name="CWXTDATE" type="COBOL">
+      <INOUT>
+        <eom-sw type="Character" length="1" bytes="1" />
+        <yrs-of-service type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+        <run-date>
+          <run-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+          <run-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+          <run-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+        </run-date>
+        <hire-date>
+          <hire-yy type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+          <hire-mm type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+          <hire-dd type="NumericDisplay" length="2" bytes="2" signed="false" decimals="0" signsep="false" signpos="" />
+        </hire-date>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>
